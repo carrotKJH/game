@@ -10,7 +10,7 @@ canvas.height = window.innerHeight -300;
 
 
 var dainoImage = new Image();
-dainoImage.src = 'sonic.png';
+dainoImage.src = 'daino.png';
 
 var dino = {
     x: 10,
@@ -48,7 +48,7 @@ var dainoMovingStep = 3;
 var cactusMovingStep = 2;
 var timer = 0;
 var cactus여러개 = [];
-var rand = Math.floor(Math.random() * 150) + 50;
+var rand = Math.floor(Math.random() * 150) + 80;
 console.log(rand);
 var 점프timer = 0
 var animation; 
@@ -70,7 +70,7 @@ function 프레임마다실행할것() {
         //console.log(rand)
         var cactus = new Cactus();
         cactus여러개.push(cactus);
-        rand = Math.floor(Math.random() * 150) + 50;
+        rand = Math.floor(Math.random() * 150) + 80;
         cactusTimer = 0;
     }
     
